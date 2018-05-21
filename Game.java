@@ -150,7 +150,6 @@ public class Game {
                 } else if (this.secondPlayer.getChoice() == Game.scissors) {
                     System.out.println("Rock beats Scissors -- ");
                 }
-                //System.out.println("Paper beats Rock -- ");
                 return (this.secondPlayer.getChoice() == Game.paper ? 2 : 1);
             case 2: //paper
                 if (this.secondPlayer.getChoice() == Game.rock) {
@@ -158,7 +157,6 @@ public class Game {
                 } else if (this.secondPlayer.getChoice() == Game.scissors) {
                     System.out.println("Scissors beats Paper -- ");
                 }
-                //System.out.println("Scissors beats Paper -- ");
                 return (this.secondPlayer.getChoice() == Game.scissors ? 2 : 1);
             case 3: //scissors
                 if (this.secondPlayer.getChoice() == Game.rock) {
@@ -166,7 +164,6 @@ public class Game {
                 } else if (this.secondPlayer.getChoice() == Game.paper) {
                     System.out.println("Scissors beats Paper -- ");
                 }
-                //System.out.println("Rock beats Scissors -- ");
                 return (this.secondPlayer.getChoice() == Game.rock ? 2 : 1);
             default:
                 return 0;
