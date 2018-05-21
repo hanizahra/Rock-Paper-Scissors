@@ -5,7 +5,6 @@ public class Player {
     private String name;
     private int type;
     private int currentChoice;
-    public int answer;
     public int score = 0;
 
 
@@ -28,7 +27,6 @@ public class Player {
     }
 
 
-    public static Boolean gameOver = false;
     Scanner scanner = new Scanner(System.in);
 
 
@@ -52,26 +50,5 @@ public class Player {
         return this.type;
     }
 
-
-
-
-    public void inputName() {
-        System.out.println("Enter your name!");
-        name = scanner.next();
-    }
-
-
-    // Displays who is throwing what
-    public static void selection(String thrower, int thrown) {
-        if (thrown == Game.rock) {
-            System.out.println(thrower + " has thrown Rock! ");
-        } else if (thrown == Game.paper) {
-            System.out.println(thrower + " has thrown Paper! ");
-        } else if (thrown == Game.scissors) {
-            System.out.println(thrower + " has thrown Scissors! ");
-        } else {
-
-        }
-    }
 
 }
