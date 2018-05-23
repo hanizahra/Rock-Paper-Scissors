@@ -11,6 +11,11 @@
   I knew I would add a second player option later but wanted to focus on the core logic before adding a feature. 
 
 ## Installation Instructions
+- Import from within IntelliJ IDEA CE using the following steps
+  - On the top menu, click - - VCS -> Checkout from Version Control -> Git
+  - Enter this GitHub Repo's URL and select a directory on your computer
+  - Clone
+  - Run Main file
 
 ## Unsolved Problems
 - I had originally planned to add Processing visuals but ended up spending more time working out the game logic and 
